@@ -6,7 +6,7 @@
       disabled="{{button.disabled}}"
       mat-button
       mat-raised-button>
-      {{ button.text }}
+      {{ button.text }} and {{button.disabled ? "you're offline" : "you're online" }}
     </button>
   </mat-card-actions>
   <img
