@@ -30,9 +30,11 @@ generateSrc(): void {
 
   ngOnInit() {
       this.src = this.image.api + this.image.message;
+      console.log(navigator.onLine);
       if (!navigator.onLine) {
-          this.button.text = 'Sorry, you\'re offline';
-          this.button.disabled = true;
+          this.button.text = 'Offline';
+          this.button.disabled = false;
+          console.log("disabling button");
       }
   }
 
