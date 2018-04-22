@@ -3,10 +3,10 @@
     <button
       color="primary"
       (click)="generateSrc()"
-      disabled="false"
+      disabled="{{button.disabled}}"
       mat-button
       mat-raised-button>
-      {{ button.text }} {{button.disabled}}
+      {{ button.text }}
     </button>
   </mat-card-actions>
   <img
