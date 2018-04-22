@@ -1,0 +1,38 @@
+{
+  "configVersion": 1,
+  "index": "/progressivecats/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/progressivecats/favicon.ico",
+        "/progressivecats/index.html",
+        "/progressivecats/inline.318b50c57b4eba3d437b.bundle.js",
+        "/progressivecats/main.d791abf510ee14366f8e.bundle.js",
+        "/progressivecats/polyfills.b6b2cd0d4c472ac3ac12.bundle.js",
+        "/progressivecats/styles.7bd461a98737fde4acd3.bundle.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [],
+      "patterns": [
+        "https:\\/\\/cataas\\.com\\/.*"
+      ]
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/progressivecats/inline.318b50c57b4eba3d437b.bundle.js": "998c6060446975e566fd17509558ddc68d72eec3",
+    "/progressivecats/main.d791abf510ee14366f8e.bundle.js": "672c640f6deffeb9dbfd81cef347235f0901f436",
+    "/progressivecats/polyfills.b6b2cd0d4c472ac3ac12.bundle.js": "b092f5c27ff4222179ae3e9e3164c8cc6caa09cf",
+    "/progressivecats/styles.7bd461a98737fde4acd3.bundle.css": "2d54a334bf71713644c3c2f6aeed7da1ab2a647c",
+    "/progressivecats/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/progressivecats/index.html": "cb476efda39297d254b50e01934fda3b3c8200a7"
+  }
+}
