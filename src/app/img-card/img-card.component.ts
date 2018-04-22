@@ -16,7 +16,7 @@ export class ImgCardComponent implements OnInit {
   public src: string;
 
   public button: Button = {
-    text: "Give me a cat",
+    text: "Give me a cat please",
     disabled: false
   }
 
